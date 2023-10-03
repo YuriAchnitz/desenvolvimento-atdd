@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.181" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.145" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Users\yuri_\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\yuri_\AppData\Local\Temp\surefire3224788223602469961\surefirebooter17137487545475886237.jar C:\Users\yuri_\AppData\Local\Temp\surefire3224788223602469961 2023-10-03T03-05-23_620-jvmRun1 surefire7137897338349815661tmp surefire_05954352058314555330tmp"/>
+    <property name="sun.java.command" value="C:\Users\yuri_\AppData\Local\Temp\surefire13860807457679593068\surefirebooter-20231003033401873_3.jar C:\Users\yuri_\AppData\Local\Temp\surefire13860807457679593068 2023-10-03T03-34-01_585-jvmRun1 surefire-20231003033401873_1tmp surefire_0-20231003033401873_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\yuri_\OneDrive\Facens\8-semestre\devops_qa\plataforma_cursos\target\test-classes;C:\Users\yuri_\OneDrive\Facens\8-semestre\devops_qa\plataforma_cursos\target\classes;C:\Users\yuri_\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\yuri_\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yuri_\AppData\Local\Temp\surefire3224788223602469961\surefirebooter17137487545475886237.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yuri_\AppData\Local\Temp\surefire13860807457679593068\surefirebooter-20231003033401873_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+7"/>
@@ -58,9 +58,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="receberCursosDisponiveis" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.01"/>
-  <testcase name="resgatarComSaldoSuperior" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.005"/>
-  <testcase name="resgatarCursoComSaldoInferior" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0"/>
-  <testcase name="resgatarCursoComPromocao" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0"/>
-  <testcase name="visualizarSaldo" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.001"/>
+  <testcase name="receberCursosDisponiveis" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.008"/>
+  <testcase name="resgatarComSaldoSuperior" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.013">
+    <system-out><![CDATA[O curso foi resgatado com sucesso.
+]]></system-out>
+  </testcase>
+  <testcase name="resgatarCursoComSaldoInferior" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.004">
+    <system-out><![CDATA[Seu saldo é insuficiente!
+]]></system-out>
+  </testcase>
+  <testcase name="resgatarCursoComPromocao" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0.004">
+    <system-out><![CDATA[O curso foi resgatado com sucesso.
+]]></system-out>
+  </testcase>
+  <testcase name="visualizarSaldo" classname="com.grupo3.plataforma_cursos.ResgateDeCursoTest" time="0"/>
 </testsuite>
