@@ -60,7 +60,7 @@ public class ResgateDeCursoTest {
 	public void visualizarSaldo() {
 		Aluno aluno = new Aluno(30);
 		ResgateDeCurso resgateDeCurso = new ResgateDeCurso();
-		String esperado = "Meu saldo é de 30 moedas";
+		String esperado = "Seu saldo é de 30 moedas";
 		
 		String resposta = resgateDeCurso.mostrarSaldoAluno(aluno);
 		
